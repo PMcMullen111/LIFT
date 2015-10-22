@@ -1,0 +1,100 @@
+import java.util.*;
+import java.io.*;
+
+import javax.swing.*;
+
+import junit.framework.*;
+
+
+public class ConProgMain extends TestCase{
+	public static void main(String[] args) throws IOException  {
+		
+		////////////////////
+		     //TEST\\
+		/////////////////////
+		Testclass nextPage= new Testclass();
+nextPage.display();
+		
+		
+
+
+
+
+//public class classwork extends TestCase {
+//   protected int value1, value2;
+//   
+//   // assigning the values
+//   protected void setUp(){
+//      value1=3;
+//      value2=3;
+//   }
+//
+//   // test method to add two values
+//   public void testAdd(){
+//      double result= value1 + value2;
+//      assertTrue(result == 6);
+//   }
+//}
+
+		
+		
+		/////////////////////
+		
+//		ConProgGU windowTwo = new ConProgGU();
+//		windowTwo.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		windowTwo.setSize(750, 580);
+//		windowTwo.setVisible(true);
+		
+		
+//		ConProgGUTest windowTestNext = new ConProgGUTest();
+//		windowTwo.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//		windowTwo.setSize(750, 580);
+		//windowTestNext.setVisible(true);
+
+			
+		
+		
+	// ******* TxT File Only ********	
+		String benchx;
+		String squatx;
+		String dlx;
+		String cleanx;
+		String fsquatx;
+		double salary;
+		int numEmp = 0;
+
+//		ConTxt[] emp = new ConTxt[10];
+//		Scanner inFile = null;
+//		//locate Employees.txt file
+//		
+//		try {
+//			inFile = new Scanner(new File("BSqDl.txt"));
+//		} catch (FileNotFoundException e) {
+//			System.err.println("Error: Employees file not found");
+//		}
+//		// read in fName,lName,rank,and salary from employees.txt
+//		while (inFile.hasNext()) {
+//			benchx = inFile.next();
+//			squatx = inFile.next();
+//			dlx = inFile.next();
+//			cleanx = inFile.next();
+//			fsquatx = inFile.next();
+//			
+//			emp[numEmp] = new ConTxt(benchx, squatx, dlx, cleanx, fsquatx);
+//			numEmp++;
+//			}
+//		
+//		System.out.printf("%-10s %15s %16s %n", "Name", "Rank", "Salary");
+//
+//		// print formatName, Rank, and Salary methods
+//		for (int i = 0; i < numEmp; i++) {
+//			System.out.printf(" %-10s %10s  %17.2f\n", emp[i].formatName(),
+//					emp[i].getRank(), emp[i].getSalary());
+//		}
+//
+//		// close file
+//		inFile.close();
+//		
+//	}
+}
+}
